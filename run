@@ -1,0 +1,2 @@
+docker run -d --name sendmail  --hostname $DOMAIN_NAME emsi/sendmail /usr/lib/sendmail -bD -X /proc/self/fd/1
+docker run -d --name sendmail  --hostname $DOMAIN_NAME -p 25250:25 emsi/sendmail /usr/lib/sendmail -bD 
