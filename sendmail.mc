@@ -16,7 +16,7 @@ divert(-1)dnl
 # If you modify this file, you will have to regenerate /etc/mail/sendmail.cf
 # by running this file through the m4 preprocessor via one of the following:
 #	* make   (or make -C /etc/mail)
-#	* sendmailconfig
+#	* sendmailconfig 
 #	* m4 /etc/mail/sendmail.mc > /etc/mail/sendmail.cf
 # The first two options are preferred as they will also update other files
 # that depend upon the contents of this file.
